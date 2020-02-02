@@ -1,0 +1,6 @@
+framework module Pods_homeWorkAlamofire {
+  umbrella header "Pods-homeWorkAlamofire-umbrella.h"
+
+  export *
+  module * { export * }
+}
