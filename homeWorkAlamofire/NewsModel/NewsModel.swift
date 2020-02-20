@@ -55,16 +55,7 @@ class NewsArticleModel {
         }
         return formatter.date(from: published)
     }
-    
-    func titleSort() {
-    
-        guard let title = title else {
-            return
-        }
-    }
-    
-   
-    
+  
 //    required init?(map: Map) {
 //
 //    }
