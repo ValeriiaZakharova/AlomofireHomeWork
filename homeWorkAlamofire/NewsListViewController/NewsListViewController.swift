@@ -43,7 +43,6 @@ class NewsListViewController: UIViewController {
         
         vc.filterByDate = filterByDate
         vc.filterByTitle = filterByTitle
-        
         navigationController?.pushViewController(vc, animated: true)
     }
 }
@@ -55,7 +54,6 @@ extension NewsListViewController: NewsCellDelegate {
             print("I don't know when it can happen")
             return
         }
-        
         if expandedIndexPaths.contains(indexPath) {
             expandedIndexPaths.remove(indexPath)
             cell.updateCell(model: articles[indexPath.row], isExpanded: false)

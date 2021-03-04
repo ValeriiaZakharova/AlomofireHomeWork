@@ -19,7 +19,6 @@ enum FilterByTitle{
     case none
 }
 
-
 class SortViewController: UIViewController {
     
     @IBOutlet weak var titleButton: UIButton!
